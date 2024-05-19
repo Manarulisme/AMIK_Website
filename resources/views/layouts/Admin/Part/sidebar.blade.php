@@ -94,7 +94,22 @@
                     </a>
                   </li>
               </li>
-              <li class="nav-header border-bottom border-light-subtle"></li>
+
+        <li class="nav-header border-bottom border-light-subtle">PENERIMAAN</li>
+        <li class="nav-item">
+            <a href="{{ route('Penerimaan_Mahasiswa_Baru.index') }}" class="nav-link {{ Request::is('dashboard/posts/create') ? 'active' : '' }}">
+              <i class="far fa-regular fa-solid fa-user-graduate nav-icon"></i>
+              <p>Mahasiswa Baru</p>
+            </a>
+          </li>
+
+          <li class="nav-header border-bottom border-light-subtle">DATA MAHASISWA</li>
+          <li class="nav-item">
+              <a href="{{ route('profil_mahasiswa.index') }}" class="nav-link {{ Request::is('dashboard/posts/create') ? 'active' : '' }}">
+                <i class="far fa-regular fa-solid fa-user-graduate nav-icon"></i>
+                <p>Profil Mahasiswa</p>
+              </a>
+            </li>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->

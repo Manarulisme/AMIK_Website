@@ -1,12 +1,32 @@
 @extends('layouts.Front.master')
 
 @section('title')
-Penerimaan Mahasisa Baru
+Informasi Penerimaan Mahasisa Baru
 @endsection
 
 @section('konten')
 
-<div id="sambutan_rektor" class="py-5">
+
+<style>
+    #pmb_headline{
+        background-image: url({{ asset('Assets/Images/Profil/wisuda_amik.png') }});
+    }
+</style>
+
+    <div class="py-5" id="pmb_headline">
+        <div class="px-4 py-5 text-center">
+            <h1 class="display-5 fw-bold text-white" style="text-shadow: 1px 1px black;">Selamat Datang <br> Calon Mahasiswa AMIK - YPAT Purwakarta</h1>
+            <div class="col-lg-6 mx-auto">
+              <span class="lead mb-4 text-white">Dengan penuh niat dan ketulusan saudara, Silahkan untuk mengisi formulir yang kami sediakan berikut ini.</span>
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <button type="button" class="mt-3 btn btn-danger btn-lg px-4 gap-3"><a href="{{ route('PMB-AMIK.create') }}" class="text-white text-decoration-none">Daftar Sekarang</a></button>
+              </div>
+            </div>
+          </div>
+    </div>
+
+
+<div id="pmb_info" class="py-5">
     <div class="container bg-white p-5 rounded">
 
         <h3>@yield('title')</h3>
@@ -50,5 +70,20 @@ Penerimaan Mahasisa Baru
               </div>
     </div>
 </div>
+
+
+<script>
+    //message with toastr
+    @if(session()->has('success'))
+
+        toastr.success('{{ session('success') }}', 'BERHASIL!');
+
+    @elseif(session()->has('error'))
+
+        toastr.error('{{ session('error') }}', 'GAGAL!');
+
+    @endif
+</script>
+
 
 @endsection

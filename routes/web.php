@@ -4,8 +4,11 @@ use App\Http\Controllers\AgendaController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\KategoriController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\PenerimaanController;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\ProfilMahasiswaController;
 use App\Http\Controllers\publik\FrontController;
+use App\Http\Controllers\publik\PmbController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\SlideshowController;
 use Faker\Guesser\Name;
@@ -26,7 +29,7 @@ Route::get('/', function () {
 });
 
 
-Route::get('/', [FrontController::class,'index']);
+Route::get('/', [FrontController::class, 'index']);
 Route::get('/headline/{slug}', [FrontController::class, 'show']);
 
 
@@ -54,6 +57,12 @@ Route::resource('/dashboard/slideshow', SlideshowController::class)->middleware(
 
 // Jalur Route Dashboard/slideshow
 Route::resource('/dashboard/agendaterdekat', AgendaController::class)->middleware('auth');
+
+// Jalur Route Dashboard/slideshow
+Route::resource('/dashboard/profil_mahasiswa', ProfilMahasiswaController::class)->middleware('auth');
+
+//Jalur Route Dashboard/Penerimaan_Mahasiswa_Baru
+Route::resource('/dashboard/Penerimaan_Mahasiswa_Baru', PenerimaanController::class)->middleware('auth');
 
 // Jalur Route Tentang AMIK
 Route::get('/sambutan-direktur', [FrontController::class, 'sambutan']);
@@ -86,3 +95,5 @@ Route::get('/mitraposts', [FrontController::class, 'mitraposts']);
 Route::get('/pengunjungposts', [FrontController::class, 'pengunjungposts']);
 Route::get('/kontak', [FrontController::class, 'kontak']);
 
+// PMB AMIK
+Route::resource('/PMB-AMIK', PmbController::class);

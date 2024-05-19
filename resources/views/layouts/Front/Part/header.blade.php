@@ -82,7 +82,7 @@
               <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Penerimaan</a>
                   <ul class="dropdown-menu dropdown-menu-end">
-                      <li><a class="dropdown-item" href="{{ url('/penerimaan-mahasiswa-baru') }}">Penerimaan Mahasiswa Baru</a></li>
+                      <li><a class="dropdown-item" href="{{ route('PMB-AMIK.index') }}">Penerimaan Mahasiswa Baru</a></li>
                       <li><a class="dropdown-item" href="{{ url('penerimaan-beasiswa') }}">Penerimaan Beasiswa</a></li>
                       <li><a class="dropdown-item" href="{{ url('/penerimaan-penghargaan') }}">Penerimaan Penghargaan</a></li>
                   </ul>
