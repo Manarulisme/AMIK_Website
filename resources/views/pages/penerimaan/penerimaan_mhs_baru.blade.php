@@ -19,7 +19,7 @@ Informasi Penerimaan Mahasisa Baru
             <div class="col-lg-6 mx-auto">
               <span class="lead mb-4 text-white">Dengan penuh niat dan ketulusan saudara, Silahkan untuk mengisi formulir yang kami sediakan berikut ini.</span>
               <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                <button type="button" class="mt-3 btn btn-danger btn-lg px-4 gap-3"><a href="{{ route('PMB-AMIK.create') }}" class="text-white text-decoration-none">Daftar Sekarang</a></button>
+                <button type="button" class="mt-3 btn btn-lg px-4 gap-3" style="background-color: #820000;"><a href="{{ route('PMB-AMIK.create') }}" class="text-white text-decoration-none">Daftar Sekarang</a></button>
               </div>
             </div>
           </div>

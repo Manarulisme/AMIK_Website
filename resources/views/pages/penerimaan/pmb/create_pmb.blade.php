@@ -30,17 +30,6 @@ Daftar Mahasiswa Baru
 <h2>DATA MAHASISWA</h2>
             <div class="row g-3">
                 <div class="col-md-6">
-                    <label for="nim" class="font-weight-bold @error('nim') is-invalid @enderror">Nomor Induk Mahasiswa</label>
-                    <input type="text" id="nim" class="form-control" name="nim">
-
-                    @error('nim')
-                    <div class="alert alert-danger mt-2">
-                        {{ ('isi cuy nimnya') }}
-                    </div>
-                    @enderror
-                </div>
-
-                <div class="col-md-6">
                     <label for="nik" class="font-weight-bold @error('nik') is-invalid @enderror">Nomor Induk Kependudukan (KTP)</label>
                     <input type="text" id="nik" class="form-control" name="nik">
 
@@ -132,7 +121,7 @@ Daftar Mahasiswa Baru
                     @enderror
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-3">
                     <label for="agama" class="font-weight-bold @error('agama') is-invalid @enderror">Agama</label>
                     <select name="agama" class="form-select" aria-label="Default select example">
                         <option selected>Pilih Agama</option>
@@ -151,11 +140,12 @@ Daftar Mahasiswa Baru
                 </div>
 
 
-                <div class="col-md-6">
+                <div class="col-md-3">
                     <label for="jalur_pendaftaran" class="font-weight-bold @error('jalur_pendaftaran') is-invalid @enderror">Jalur Pendaftaran</label>
                     <select name="jalur_pendaftaran" class="form-select" aria-label="Default select example">
                         <option selected>Pilih Jalur Pendaftaran</option>
-                        <option value="Mandiri">Mandiri</option>
+                        <option value="Mandiri">Mandiri Reguler</option>
+                        <option value="Mandiri">Mandiri Karyawan</option>
                         <option value="Beasiswa KIP">Beasiswa KIP</option>
                     </select>
 
@@ -971,7 +961,7 @@ DATA WALI
              </div>
 
              <div id="tombol_intruksi" class="my-4">
-                <button type="submit" class="btn btn-md btn-danger">SIMPAN</button>
+                <button type="submit" class="btn btn-md text-white" style="background-color: #820000;">SIMPAN</button>
                 <button type="reset" class="btn btn-md btn-warning">RESET</button>
              </div>
 

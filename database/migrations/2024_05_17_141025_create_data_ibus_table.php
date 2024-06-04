@@ -25,7 +25,7 @@ return new class extends Migration
             $table->string('desa_ibu');
             $table->string('kecamatan_ibu');
             $table->string('kabupaten_ibu');
-            $table->integer('kodepos_ibu');
+            $table->string('kodepos_ibu');
             $table->string('hp_ibu');
             $table->string('email_ibu');
             $table->string('pendidikan_ibu');

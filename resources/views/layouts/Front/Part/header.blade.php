@@ -6,7 +6,7 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Akses Cepat</a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Portal Jurnal</a></li>
+                            <li><a class="dropdown-item" href="{{ url('https://e-library.amikypat-purwakarta.ac.id') }}">E-Library</a></li>
                             <li><a class="dropdown-item" href="#">SKK</a></li>
                         </ul>
                     </li>
@@ -37,7 +37,7 @@
                         </ul>
                     </div>
 
-    <div id="navbar2" class="py-3 bg-danger shadow-sm">
+    <div id="navbar2" class="py-3 shadow-sm" style="background-color: #820000;">
 
 
       <nav class="navbar navbar-expand-lg">

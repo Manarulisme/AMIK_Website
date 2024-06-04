@@ -41,7 +41,7 @@ Beranda
                 <div class="col-12 col-sm-12 col-md-8 col-xl-9" style="text-align: justify;">
                     <h3 class="text-start mt-3">{{ $headline->judul }}</h3>
                     <p class="lh-sm">{!! substr($headline->detail,0,504) !!}</p>
-                    <a href="{{ url('/sambutan-direktur') }}" class="text-danger text-decoration-none">Selengkapnya <i class="fa-solid fa-arrow-right-long"></i></a>
+                    <a href="{{ url('/sambutan-direktur') }}" class="text-decoration-none" style="color: #820000;">Selengkapnya <i class="fa-solid fa-arrow-right-long"></i></a>
                 </div>
             </div>
         </div>
@@ -81,7 +81,7 @@ Beranda
 
             </div>
             <div class="text-end">
-                <a class="btn btn-danger" href="{{ url('/allposts') }}">Selengkapnya
+                <a class="btn text-white" style="background-color: #820000;" href="{{ url('/allposts') }}">Selengkapnya
                     <i class="fa-solid fa-angle-right"></i>
                 </a>
             </div>
@@ -91,7 +91,7 @@ Beranda
 
     <div id="agenda" style="background-color: #f8f4f4">
         <div class="container py-2 py-sm-3 py-md-4 py-xl-5">
-            <div class=" h4 pb-2 mb-4 text-dark border-bottom border-danger">Agenda Terdekat</div>
+            <div class=" h4 pb-2 mb-4 text-dark" style="border-bottom:#820000 1px solid;">Agenda Terdekat</div>
 
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4">
                 @foreach ($agendas as $agenda)
@@ -125,7 +125,7 @@ Beranda
             </div>
 
             <div class="text-end">
-                <a class="btn btn-danger" href="{{ url('/allagendas') }}">Selengkapnya
+                <a class="btn text-white" style="background-color: #820000;" href="{{ url('/allagendas') }}">Selengkapnya
                     <i class="fa-solid fa-angle-right"></i>
                 </a>
             </div>
@@ -134,7 +134,7 @@ Beranda
     </div>
 
     <div id="video_kampus">
-        <div class="bg-danger text-white">
+        <div class="text-white" style="background-color: #820000;">
             <div class="container py-2 py-sm-3 py-md-4 py-xl-5">
                 <h1>Kanal video Kampus</h1>
                 Selalu ada hal menarik yang berasal dari dalam kampus, dosen, mahasiswa, staff ataupun alumni yang kami tampilkan pada video dibawah ini :

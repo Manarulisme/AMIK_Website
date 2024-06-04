@@ -97,3 +97,9 @@ Route::get('/kontak', [FrontController::class, 'kontak']);
 
 // PMB AMIK
 Route::resource('/PMB-AMIK', PmbController::class);
+
+
+Route::get('/create-symlink', function () {
+    symlink('/home/u582046805/domains/amikypat-purwakarta.ac.id/AmikLaravel10/storage/app/public', '/home/u582046805/domains/amikypat-purwakarta.ac.id/public_html/storage');
+    echo "Symlink Created. Thanks";
+});

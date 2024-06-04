@@ -25,7 +25,7 @@ return new class extends Migration
             $table->string('desa_ayah');
             $table->string('kecamatan_ayah');
             $table->string('kabupaten_ayah');
-            $table->integer('kodepos_ayah');
+            $table->string('kodepos_ayah');
             $table->string('hp_ayah');
             $table->string('email_ayah');
             $table->string('pendidikan_ayah');
