@@ -45,13 +45,12 @@
 
 
                             <td class="text-center">
-                                {{-- <form onsubmit="return confirm('Apakah Anda Yakin ?');" action="{{ route('kategori.destroy', $kategoris->id) }}" method="POST">
-                                    <a href="{{ route('kategori.edit', $kategoris->id) }}" class="btn btn-sm btn-primary">EDIT</a>
+                                <form onsubmit="return confirm('Apakah Anda Yakin ?');" action="{{ route('Penerimaan_Mahasiswa_Baru.destroy', $kategoris->id) }}" method="POST">
 
                                     @csrf
                                     @method('DELETE')
                                     <button type="submit" class="btn btn-sm btn-danger">HAPUS</button>
-                                </form> --}}
+                                </form>
                             </td>
 
                         </tr>

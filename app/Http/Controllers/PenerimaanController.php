@@ -179,6 +179,18 @@ class PenerimaanController extends Controller
         //delete post
         $data_mhs->delete();
 
+        $data_ayah = Data_ayah::findOrFail($id);
+        $data_ayah->delete();
+
+        $data_ibu = Data_ibu::findOrFail($id);
+        $data_ayah->delete();
+
+        $data_wali = Data_wali::findOrFail($id);
+        $data_wali->delete();
+
+
+
+
         //redirect to index
         return redirect()->route('posts.index')->with(['success' => 'Data Berhasil Dihapus!']);
     }
