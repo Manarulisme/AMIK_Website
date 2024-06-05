@@ -6,46 +6,38 @@ Amik YPAT Purwakarta adalah salah satu kampus di Purwakarta yang sudah berdiri d
 
 ## Fitur Utama Website
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Fitur utama di website ini diantaranya sebagai begitu :
+1. Profil kampus
+2. Seputar Akademik
+3. Riset dan publikasi
+4. Berbagai Penerimaan
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+Selain dari fitur utama yang ada, website ini menjadi fasilitator untuk sistem-sistem yang dibangun seperti : Sistem E-Library, sistem keuangan dls yang tersaji di sub menu Akses Cepat
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Tools yang digunakan
 
-## Laravel Sponsors
+Selama pengerjaan website ini, tools yang digunakan sebagai berikut :
+1. IDE VSCode
+2. XAMPP dan Laragon
+3. Sqlyog
+4. Canva
+5. Chat GPT
+6. Laravel 10
+7. Bootstrap 5.3
+8. PHP 8.3
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+## Harapan kepada para pengembang
 
-### Premium Partners
+Semoga dengan hadirnya website ini menjadi nilai yang berharga yang dimiliki kampus dan selalu mengalami update dan upgrade untuk perkembangan kampus. Lihat apa saja yang menjadi kebutuhan kampus sehingga menunjang terhadap kemudahan dan kelancaran proses yang berada di kampus.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+### Hasil Pengerjaan
 
-## Contributing
+Silahkan kunjungi website : <a href="https://amikypat-purwakarta.ac.id/">https://amikypat-purwakarta.ac.id/</a>
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Kontribusi
 
-## Code of Conduct
+Terima kasih kepada Laravel, Bootstrap, Stackoverflow dan sumber-sumber lainnya yang sudah membantu kelancaran dari project website ini. Terima kasih juga kepada Manarul Huda selaku developer website ini. Kemudian terima kasih juga kepada para pihak yang sudah memberikan masukannya selama ini.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Kontak
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# Web_AMIK
-# AMIK_Website
+Silahkan siapa pun yang ingin mengembangkan atau menanyakan seputar website untuk menghubungi email : <b>manarulhuda57@gmail.com</b>
